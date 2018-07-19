@@ -1,0 +1,394 @@
+/*Main Styles Start*/
+
+*{
+	margin: 0;
+}
+body {
+	font-family: "Volkhov", Georgia, Helvetica, sans-serif;
+	color: black;
+	overflow-x: hidden;
+	z-index: 1;
+	}
+
+h1{
+	font-size: 72px;
+	padding: 10px;
+	text-shadow: 1px 1px 5px #696969;
+	text-align: center;
+}
+h2{
+	font-size: 50px;
+	padding: 10px;
+}
+h3{
+	font-size: 18px;
+	padding: 10px;
+}
+p{
+	font-size: 20px;
+	line-height: 25px;
+	padding: 5px;
+	text-align: center;
+}
+
+/*Main Styles End*/
+
+/*ID Styles Start*/
+#phone_logo {
+	float: left;
+	display: inline;
+	margin: 19px 50px;
+	color: white;
+}
+#phone{
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 15px;
+}
+#phone:hover{
+	color: #00e7ff;
+}
+#menu {
+	float: left;
+	display: flex;
+	margin-left: 50px;
+	z-index: 3;
+}
+#logo {
+
+}
+#menu_bar {
+
+}
+#menu_button {
+	height: 72px;
+	width: 50px;
+	background-color: #00e7ff;
+	border: 1px solid #00e7ff;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#social_media {
+	float: right;
+	margin: 0 60px;
+	padding: 20px 0px;
+}
+#social_media a {
+	margin: 15px;
+}
+#social_media a:hover {
+	color: #00e7ff;
+}
+#main_style {
+	z-index: 1;
+	align-self: auto;
+	margin: -280px 25px;
+	padding: 400px 0px 215px;
+	border: 2px solid #00e7ff;
+}
+video {
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#about_me {
+	margin: 0;
+	width: auto;
+	height: 260px;
+	padding: 350px 0;
+	color: white;
+}
+#services_wrapper {
+	margin-bottom: -100px;
+	padding: 0;
+}
+#services {
+	text-align: center;
+	margin: 100px auto;
+	padding: 100px 50px;
+	color: black;
+}
+#services h2{
+	text-shadow: 1px 1px 3px black;
+}
+#table_wrapper {
+	display: flex;
+	width: 70%;
+	margin: 35px 12.5%;
+}
+#second {
+	width: auto;
+	height:545px;
+	padding: 50px 0;
+	color: white;
+	background-image: url('../img/secondary_img.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	text-align: center;
+}
+#second h2{
+	text-shadow: 1px 1px 3px white;
+}
+#second_style {
+	margin: 25px;
+	padding: 90px;
+	border: 2px solid #00e7ff;
+}
+#my_portfolio {
+	margin: 50px 50px 75px;
+	text-align: center;
+	color: black;
+}
+#my_portfolio img{
+	width: 400px;
+	height: 300px;
+}
+#my_portfolio h2{
+	text-shadow: 1px 1px 3px black;
+}
+#contact_button {
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 12.5%;
+	background-color: #00e7ff;
+}
+#footer {
+	background-color: #d6d4d4;
+	padding: 60px 0 20px 0;
+}
+#footer_wrap {
+	margin: -90px 25px 0 25px;
+	padding-top: 50px;
+	border: 2px solid #00e7ff;
+}
+/*ID styles End*/
+
+
+/*Class Styles Start*/
+.buttons {
+	margin: 100px 40%;
+	padding: 20px 80px;
+	text-align: center;
+	width: 10%;
+	background-color: transparent;
+	border: 2px solid #00e7ff;
+	border-radius: 20%;
+}
+.table_wrapper{
+	margin: 0 8%;
+}
+.services_wrapper{
+	margin: 20px auto -90px;
+	flex: 1;
+}
+.services_wrapper i {
+	color: #00e7ff;
+	margin-bottom: 10px;
+}
+.services_wrapper img{
+	height: 100px;
+	width: 100px;
+}
+.portfolio_wrapper {
+	display: inline-block;
+	margin-top: 50px;
+}
+.portfolio_wrapper img{
+	margin: -2px;
+}
+.learn_view_links {
+	font-weight: bold;
+}
+
+/*Class Sytles End*/
+
+/*Start Modal Overlay + Box for About Me && Contact*/
+
+.modal_overlay {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(0,0,0, 0.7)
+	z-index: 3;
+
+}
+.modalBox {
+	margin: 150px auto;
+	width: 50%;
+	height: 75%;
+	background-color: white;
+	border: 2px solid black;
+	z-index: 4;
+}
+.closeBtn {
+	float: right;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	background-color: #00e7ff;
+	box-shadow: 2 2 2 2;
+
+}
+/*End Modal Overlay + Box for About Me && Contact*/
+
+/*Start Form Styles*/
+form {
+	display: none;
+	text-align: left;
+	position: fixed;
+	top: 3%;
+	left: 5%;
+	margin-left: 30%;
+	padding: 50px 100px;
+	color: white;
+	background: url('../img/form_background.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*border: 1px solid red;*/
+
+}
+#contact_form h2 {
+	margin: 0 auto 50px;
+}
+#contact_form label {
+	font-size: 20px;
+	font-weight: bold;
+
+}
+#contact_form input[type="text"] {
+	margin: 10px 0 25px;
+	padding: 10px 180px 10px 0;
+	width: 50%;
+}
+textarea {
+	margin: 10px 0 25px;
+}
+#contact_form input[type="submit"]{
+	margin-left: 50px;
+	border: 2px solid #00e7ff;
+	background-color: transparent;
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 20px 100px;
+	border-radius: 25%;
+
+}
+#contact_form input[type="submit"]:hover {
+	background-color: #00e7ff;
+
+}
+#form_close_btn {
+	color: white;
+	background-color: #00e7ff;
+	float: right;
+	margin-right: -75px;
+	margin-top: -30px;
+
+}
+
+/*End Form Styles*/
+
+/*Start Overlay for Menu Modal
+.menuModal {
+	background-color: black;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: -2;
+	position: fixed;
+}
+End Overlay for Menu Modal*/
+
+
+/*Pseudo Class Start*/
+a:link {
+	color: white;
+	text-decoration: none;
+}
+a:visited {
+	color: white;
+}
+a:hover {
+	color: white;
+}
+.buttons:hover {
+	background-color: #00e7ff;
+	color: white;
+	font-weight: bold;
+	transform: scale(1.1);
+}
+.buttons:hover p {
+	color: white;
+}
+button:hover, .buttons:hover{
+	cursor: pointer;
+}
+#form_btn:hover, #form_close_btn:hover {
+	background-color: #00e7ff;
+	font-weight: bold;
+	transform: scale(1.1);
+}
+
+#services a:visited,
+#services a:link{
+	color: black;
+}
+#services a:hover{
+	color: #00e7ff;
+}
+#my_portfolio a:visited,
+#my_portfolio a:link{
+	color: black;
+}
+#my_portfolio a:hover{
+	color: #00e7ff;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Pseudo Class End*/
+
+/*Media Querys Start*/
+@media screen and (max-width: 320px){
+		#main_style{
+			padding-top: 100px;
+		}
+		#about_me{
+			height: 40px;
+			margin: 0;
+		}
+		h1{
+			font-size: 36px;
+		}
+	 	h2{
+			font-size: 28px;
+		}
+		p{
+			font-size: 16px;
+			padding: 0;
+		}
+		th{
+			font-size: 16px;
+		}
+		.buttons{
+			margin: 30px 0 -100px 20px ;
+		}
+		#services{
+
+		}
+
+}
